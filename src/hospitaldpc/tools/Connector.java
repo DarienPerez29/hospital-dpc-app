@@ -10,8 +10,8 @@ public class Connector {
     private final String URL;
 
     public Connector() {
-        this.USER = "darien_test";
-        this.PASSWORD = "darien_test";
+        this.USER = "root";
+        this.PASSWORD = "";
         this.URL = "jdbc:mysql://localhost:3306/hospitaldpc_db" + "?serverTimezone=UTC";
         CONNECTION = null;
     }//end constructor
